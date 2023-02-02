@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+body{
+  background-color: beige;
+}
+
+.container{
+  background-color: rgb(184, 10, 10);
+  max-width: 600px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: whitesmoke;
+}
+
+button {
+  background: rgb(211, 216, 253);
+  color: rgb(10, 27, 184);
+  border: 2px solid rgb(10, 27, 184);
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+section div , section p{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-top: 0;
+
+}
+section p {
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+section > div.closed {
+  margin-bottom: 20px;
+}
